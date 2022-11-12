@@ -1,0 +1,6 @@
+framework module Pods_Qorgan_QorganUITests {
+  umbrella header "Pods-Qorgan-QorganUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
