@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		30BB41FB291F954E005293E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB41FA291F954E005293E8 /* AppDelegate.swift */; };
 		30BB41FD291F954E005293E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB41FC291F954E005293E8 /* SceneDelegate.swift */; };
-		30BB41FF291F954E005293E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB41FE291F954E005293E8 /* ViewController.swift */; };
 		30BB4202291F954E005293E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BB4200291F954E005293E8 /* Main.storyboard */; };
 		30BB4205291F954E005293E8 /* Qorgan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4203291F954E005293E8 /* Qorgan.xcdatamodeld */; };
 		30BB4207291F954F005293E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BB4206291F954F005293E8 /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		30BB4215291F9550005293E8 /* QorganTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4214291F9550005293E8 /* QorganTests.swift */; };
 		30BB421F291F9550005293E8 /* QorganUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB421E291F9550005293E8 /* QorganUITests.swift */; };
 		30BB4221291F9550005293E8 /* QorganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4220291F9550005293E8 /* QorganUITestsLaunchTests.swift */; };
+		30BB4230291F978B005293E8 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB422F291F978B005293E8 /* CustomTabBarController.swift */; };
+		30BB4232291F981C005293E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4231291F981B005293E8 /* HomeViewController.swift */; };
+		4904D0BD9C5794C3AF8D7434 /* Pods_QorganTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DECBC715C3151BCCF9E3FEE /* Pods_QorganTests.framework */; };
+		4D60CA455C029D89E151992E /* Pods_Qorgan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2019D70A06C6F01C81596117 /* Pods_Qorgan.framework */; };
+		A8CB6932C2A66745B8A0693A /* Pods_Qorgan_QorganUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ED7D43BDA8ED3B38723A19 /* Pods_Qorgan_QorganUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2019D70A06C6F01C81596117 /* Pods_Qorgan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qorgan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BB41F7291F954E005293E8 /* Qorgan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qorgan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BB41FA291F954E005293E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BB41FC291F954E005293E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30BB41FE291F954E005293E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30BB4201291F954E005293E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30BB4204291F954E005293E8 /* Qorgan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qorgan.xcdatamodel; sourceTree = "<group>"; };
 		30BB4206291F954F005293E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,16 @@
 		30BB421A291F9550005293E8 /* QorganUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QorganUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BB421E291F9550005293E8 /* QorganUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QorganUITests.swift; sourceTree = "<group>"; };
 		30BB4220291F9550005293E8 /* QorganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QorganUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30BB422F291F978B005293E8 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		30BB4231291F981B005293E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3CDC68D405C49F7F0C264ABC /* Pods-QorganTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QorganTests.release.xcconfig"; path = "Target Support Files/Pods-QorganTests/Pods-QorganTests.release.xcconfig"; sourceTree = "<group>"; };
+		74ED7D43BDA8ED3B38723A19 /* Pods_Qorgan_QorganUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qorgan_QorganUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750FE504CEDB886F9CB167FC /* Pods-Qorgan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qorgan.release.xcconfig"; path = "Target Support Files/Pods-Qorgan/Pods-Qorgan.release.xcconfig"; sourceTree = "<group>"; };
+		9DECBC715C3151BCCF9E3FEE /* Pods_QorganTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QorganTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBCC963266E81357FB25421 /* Pods-Qorgan-QorganUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qorgan-QorganUITests.release.xcconfig"; path = "Target Support Files/Pods-Qorgan-QorganUITests/Pods-Qorgan-QorganUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C10CCE29F3889353DF909D4E /* Pods-Qorgan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qorgan.debug.xcconfig"; path = "Target Support Files/Pods-Qorgan/Pods-Qorgan.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A91F26112FD5097A85283A /* Pods-Qorgan-QorganUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qorgan-QorganUITests.debug.xcconfig"; path = "Target Support Files/Pods-Qorgan-QorganUITests/Pods-Qorgan-QorganUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3BD1629A194071D47D33508 /* Pods-QorganTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QorganTests.debug.xcconfig"; path = "Target Support Files/Pods-QorganTests/Pods-QorganTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D60CA455C029D89E151992E /* Pods_Qorgan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4904D0BD9C5794C3AF8D7434 /* Pods_QorganTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CB6932C2A66745B8A0693A /* Pods_Qorgan_QorganUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				30BB4213291F9550005293E8 /* QorganTests */,
 				30BB421D291F9550005293E8 /* QorganUITests */,
 				30BB41F8291F954E005293E8 /* Products */,
+				4C596EF220E962537F1492DE /* Pods */,
+				CA9E6047EC88B49ABF3668B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +120,8 @@
 		30BB41F9291F954E005293E8 /* Qorgan */ = {
 			isa = PBXGroup;
 			children = (
-				30BB41FA291F954E005293E8 /* AppDelegate.swift */,
-				30BB41FC291F954E005293E8 /* SceneDelegate.swift */,
-				30BB41FE291F954E005293E8 /* ViewController.swift */,
-				30BB4200291F954E005293E8 /* Main.storyboard */,
-				30BB4206291F954F005293E8 /* Assets.xcassets */,
-				30BB4208291F954F005293E8 /* LaunchScreen.storyboard */,
+				30BB4233291F9BF4005293E8 /* Support */,
+				30BB4234291F9C0B005293E8 /* TabBar */,
 				30BB420B291F954F005293E8 /* Info.plist */,
 				30BB4203291F954E005293E8 /* Qorgan.xcdatamodeld */,
 			);
@@ -130,6 +145,50 @@
 			path = QorganUITests;
 			sourceTree = "<group>";
 		};
+		30BB4233291F9BF4005293E8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				30BB4208291F954F005293E8 /* LaunchScreen.storyboard */,
+				30BB4206291F954F005293E8 /* Assets.xcassets */,
+				30BB41FA291F954E005293E8 /* AppDelegate.swift */,
+				30BB41FC291F954E005293E8 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		30BB4234291F9C0B005293E8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				30BB4200291F954E005293E8 /* Main.storyboard */,
+				30BB422F291F978B005293E8 /* CustomTabBarController.swift */,
+				30BB4231291F981B005293E8 /* HomeViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4C596EF220E962537F1492DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10CCE29F3889353DF909D4E /* Pods-Qorgan.debug.xcconfig */,
+				750FE504CEDB886F9CB167FC /* Pods-Qorgan.release.xcconfig */,
+				C2A91F26112FD5097A85283A /* Pods-Qorgan-QorganUITests.debug.xcconfig */,
+				BDBCC963266E81357FB25421 /* Pods-Qorgan-QorganUITests.release.xcconfig */,
+				D3BD1629A194071D47D33508 /* Pods-QorganTests.debug.xcconfig */,
+				3CDC68D405C49F7F0C264ABC /* Pods-QorganTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA9E6047EC88B49ABF3668B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2019D70A06C6F01C81596117 /* Pods_Qorgan.framework */,
+				74ED7D43BDA8ED3B38723A19 /* Pods_Qorgan_QorganUITests.framework */,
+				9DECBC715C3151BCCF9E3FEE /* Pods_QorganTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BB4224291F9550005293E8 /* Build configuration list for PBXNativeTarget "Qorgan" */;
 			buildPhases = (
+				5A15A27524A47E99A56D0129 /* [CP] Check Pods Manifest.lock */,
 				30BB41F3291F954E005293E8 /* Sources */,
 				30BB41F4291F954E005293E8 /* Frameworks */,
 				30BB41F5291F954E005293E8 /* Resources */,
+				EBB5A1ADF088F6293417B0F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BB4227291F9550005293E8 /* Build configuration list for PBXNativeTarget "QorganTests" */;
 			buildPhases = (
+				91189A02F9FCDED87ECCAF5B /* [CP] Check Pods Manifest.lock */,
 				30BB420C291F9550005293E8 /* Sources */,
 				30BB420D291F9550005293E8 /* Frameworks */,
 				30BB420E291F9550005293E8 /* Resources */,
@@ -172,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30BB422A291F9550005293E8 /* Build configuration list for PBXNativeTarget "QorganUITests" */;
 			buildPhases = (
+				62D8E371F98E28C5AC5C5BC7 /* [CP] Check Pods Manifest.lock */,
 				30BB4216291F9550005293E8 /* Sources */,
 				30BB4217291F9550005293E8 /* Frameworks */,
 				30BB4218291F9550005293E8 /* Resources */,
+				FD05DB7AECC1082158A94456 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,14 +320,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A15A27524A47E99A56D0129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qorgan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D8E371F98E28C5AC5C5BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qorgan-QorganUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91189A02F9FCDED87ECCAF5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QorganTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB5A1ADF088F6293417B0F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qorgan/Pods-Qorgan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qorgan/Pods-Qorgan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qorgan/Pods-Qorgan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD05DB7AECC1082158A94456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qorgan-QorganUITests/Pods-Qorgan-QorganUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qorgan-QorganUITests/Pods-Qorgan-QorganUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qorgan-QorganUITests/Pods-Qorgan-QorganUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30BB41F3291F954E005293E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BB41FF291F954E005293E8 /* ViewController.swift in Sources */,
+				30BB4232291F981C005293E8 /* HomeViewController.swift in Sources */,
 				30BB41FB291F954E005293E8 /* AppDelegate.swift in Sources */,
 				30BB41FD291F954E005293E8 /* SceneDelegate.swift in Sources */,
+				30BB4230291F978B005293E8 /* CustomTabBarController.swift in Sources */,
 				30BB4205291F954E005293E8 /* Qorgan.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +604,7 @@
 		};
 		30BB4225291F9550005293E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10CCE29F3889353DF909D4E /* Pods-Qorgan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,11 +613,14 @@
 				DEVELOPMENT_TEAM = R5539S8Y27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qorgan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Пожалуйста разрешите приложению отслеживать ваше местоположение";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Пожалуйста разрешите приложению отслеживать ваше местоположение";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,12 +630,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30BB4226291F9550005293E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750FE504CEDB886F9CB167FC /* Pods-Qorgan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,11 +645,14 @@
 				DEVELOPMENT_TEAM = R5539S8Y27;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Qorgan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Пожалуйста разрешите приложению отслеживать ваше местоположение";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Пожалуйста разрешите приложению отслеживать ваше местоположение";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,12 +662,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		30BB4228291F9550005293E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BD1629A194071D47D33508 /* Pods-QorganTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +689,7 @@
 		};
 		30BB4229291F9550005293E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDC68D405C49F7F0C264ABC /* Pods-QorganTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +710,7 @@
 		};
 		30BB422B291F9550005293E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A91F26112FD5097A85283A /* Pods-Qorgan-QorganUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +729,7 @@
 		};
 		30BB422C291F9550005293E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBCC963266E81357FB25421 /* Pods-Qorgan-QorganUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
