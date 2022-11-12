@@ -13,6 +13,7 @@ import InstantSearchVoiceOverlay
 
 class HomeViewController: UIViewController {
 
+//  MARK: - Defining variables, outlets, actions
     private var locationManager: CLLocationManager?
     let voiceOverlay = VoiceOverlayController()
     
@@ -26,6 +27,16 @@ class HomeViewController: UIViewController {
         self.voiceControl()
     }
     
+    @IBAction func callEmer(_ sender: Any) {
+        callEM()
+    }
+    
+    @IBAction func sendMessage(_ sender: Any) {
+        self.sendMes()
+    }
+    
+//  MARK: - Functions for voice recognition, maling call and sending message
+        
     func voiceControl() {
         voiceOverlay.start(on: self, textHandler: {text, final, _ in
             if final {
@@ -66,22 +77,6 @@ class HomeViewController: UIViewController {
         self.present(composer, animated: true)
     }
     
-    @IBAction func callEmer(_ sender: Any) {
-        callEM()
-    }
-    
-    @IBAction func sendMessage(_ sender: Any) {
-        self.sendMes()
-    }
-    
-    func locationManagerActions(){
-        locationManager = CLLocationManager()
-        locationManager?.requestAlwaysAuthorization()
-        locationManager?.startUpdatingLocation()
-        locationManager?.delegate = self
-        locationManager?.allowsBackgroundLocationUpdates = true
-    }
-    
 }
 
 extension HomeViewController: CLLocationManagerDelegate, MFMessageComposeViewControllerDelegate {
@@ -97,6 +92,14 @@ extension HomeViewController: CLLocationManagerDelegate, MFMessageComposeViewCon
             print("Unknown")
         }
         controller.dismiss(animated: true)
+    }
+    
+    func locationManagerActions(){
+        locationManager = CLLocationManager()
+        locationManager?.requestAlwaysAuthorization()
+        locationManager?.startUpdatingLocation()
+        locationManager?.delegate = self
+        locationManager?.allowsBackgroundLocationUpdates = true
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
