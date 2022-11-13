@@ -22,6 +22,7 @@
 		30BB4221291F9550005293E8 /* QorganUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4220291F9550005293E8 /* QorganUITestsLaunchTests.swift */; };
 		30BB4230291F978B005293E8 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB422F291F978B005293E8 /* CustomTabBarController.swift */; };
 		30BB4232291F981C005293E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB4231291F981B005293E8 /* HomeViewController.swift */; };
+		30F77A602920BB9E000E6239 /* BotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F77A5F2920BB9E000E6239 /* BotViewController.swift */; };
 		4904D0BD9C5794C3AF8D7434 /* Pods_QorganTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DECBC715C3151BCCF9E3FEE /* Pods_QorganTests.framework */; };
 		4D60CA455C029D89E151992E /* Pods_Qorgan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2019D70A06C6F01C81596117 /* Pods_Qorgan.framework */; };
 		A8CB6932C2A66745B8A0693A /* Pods_Qorgan_QorganUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74ED7D43BDA8ED3B38723A19 /* Pods_Qorgan_QorganUITests.framework */; };
@@ -65,6 +66,7 @@
 		30BB4220291F9550005293E8 /* QorganUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QorganUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30BB422F291F978B005293E8 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		30BB4231291F981B005293E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		30F77A5F2920BB9E000E6239 /* BotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotViewController.swift; sourceTree = "<group>"; };
 		3CDC68D405C49F7F0C264ABC /* Pods-QorganTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QorganTests.release.xcconfig"; path = "Target Support Files/Pods-QorganTests/Pods-QorganTests.release.xcconfig"; sourceTree = "<group>"; };
 		74ED7D43BDA8ED3B38723A19 /* Pods_Qorgan_QorganUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qorgan_QorganUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		750FE504CEDB886F9CB167FC /* Pods-Qorgan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qorgan.release.xcconfig"; path = "Target Support Files/Pods-Qorgan/Pods-Qorgan.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				30BB422F291F978B005293E8 /* CustomTabBarController.swift */,
 				30BB4231291F981B005293E8 /* HomeViewController.swift */,
 				3029425629209E2A00855005 /* SettingsViewController.swift */,
+				30F77A5F2920BB9E000E6239 /* BotViewController.swift */,
 				3029425529207A1C00855005 /* ContactsVC */,
 			);
 			path = TabBar;
@@ -448,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F77A602920BB9E000E6239 /* BotViewController.swift in Sources */,
 				30BB4232291F981C005293E8 /* HomeViewController.swift in Sources */,
 				30BB41FB291F954E005293E8 /* AppDelegate.swift in Sources */,
 				30BB41FD291F954E005293E8 /* SceneDelegate.swift in Sources */,

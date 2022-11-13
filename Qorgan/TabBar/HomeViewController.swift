@@ -86,7 +86,6 @@ extension HomeViewController: CLLocationManagerDelegate, MFMessageComposeViewCon
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last {
             locationLL.text = "Latitude: \(location.coordinate.latitude) \nLongtitude: \(location.coordinate.longitude)"
-            
         }
     }
 }
