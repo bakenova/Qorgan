@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3029424B29205FFC00855005 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029424A29205FFC00855005 /* ContactsViewController.swift */; };
+		3029424D29206CC900855005 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029424C29206CC900855005 /* Contact.swift */; };
+		3029425729209E2A00855005 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029425629209E2A00855005 /* SettingsViewController.swift */; };
+		302942982920B49100855005 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302942972920B49100855005 /* ContactTableViewCell.swift */; };
 		30BB41FB291F954E005293E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB41FA291F954E005293E8 /* AppDelegate.swift */; };
 		30BB41FD291F954E005293E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB41FC291F954E005293E8 /* SceneDelegate.swift */; };
 		30BB4202291F954E005293E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BB4200291F954E005293E8 /* Main.storyboard */; };
@@ -44,6 +47,9 @@
 /* Begin PBXFileReference section */
 		2019D70A06C6F01C81596117 /* Pods_Qorgan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qorgan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3029424A29205FFC00855005 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		3029424C29206CC900855005 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3029425629209E2A00855005 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		302942972920B49100855005 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		30BB41F7291F954E005293E8 /* Qorgan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qorgan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BB41FA291F954E005293E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BB41FC291F954E005293E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3029425529207A1C00855005 /* ContactsVC */ = {
+			isa = PBXGroup;
+			children = (
+				3029424A29205FFC00855005 /* ContactsViewController.swift */,
+				3029424C29206CC900855005 /* Contact.swift */,
+				302942972920B49100855005 /* ContactTableViewCell.swift */,
+			);
+			path = ContactsVC;
+			sourceTree = "<group>";
+		};
 		30BB41EE291F954E005293E8 = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +180,8 @@
 				30BB4200291F954E005293E8 /* Main.storyboard */,
 				30BB422F291F978B005293E8 /* CustomTabBarController.swift */,
 				30BB4231291F981B005293E8 /* HomeViewController.swift */,
-				3029424A29205FFC00855005 /* ContactsViewController.swift */,
+				3029425629209E2A00855005 /* SettingsViewController.swift */,
+				3029425529207A1C00855005 /* ContactsVC */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -437,6 +454,9 @@
 				30BB4230291F978B005293E8 /* CustomTabBarController.swift in Sources */,
 				30BB4205291F954E005293E8 /* Qorgan.xcdatamodeld in Sources */,
 				3029424B29205FFC00855005 /* ContactsViewController.swift in Sources */,
+				302942982920B49100855005 /* ContactTableViewCell.swift in Sources */,
+				3029424D29206CC900855005 /* Contact.swift in Sources */,
+				3029425729209E2A00855005 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

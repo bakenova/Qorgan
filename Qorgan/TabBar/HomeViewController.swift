@@ -9,13 +9,12 @@ import UIKit
 import CoreLocation
 import MessageUI
 import Contacts
-import InstantSearchVoiceOverlay
 
 class HomeViewController: UIViewController {
 
 //  MARK: - Defining variables, outlets, actions
     private var locationManager: CLLocationManager?
-    let voiceOverlay = VoiceOverlayController()
+    
     
     @IBOutlet weak var locationLL: UILabel!
     @IBOutlet weak var call112: UIButton!
@@ -24,7 +23,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         locationManagerActions()
-        self.voiceControl()
+        
     }
     
     @IBAction func callEmer(_ sender: Any) {
@@ -37,31 +36,13 @@ class HomeViewController: UIViewController {
     
 //  MARK: - Functions for voice recognition, maling call and sending message
         
-    func voiceControl() {
-        voiceOverlay.start(on: self, textHandler: {text, final, _ in
-            if final {
-                if text == "Key" {
-                    self.callEM()
-                }
-                if text == "M" {
-                    self.sendMes()
-                }
-            }
-            else{
-                 print("In progress: \(text)")
-            }
-        }, errorHandler: {error in
-            
-        })
-    }
     
     func callEM() {
-        guard let number = URL(string: "tel://" + "+77761664558") else { return }
+        guard let number = URL(string: "tel://" + "112") else { return }
             UIApplication.shared.open(number)
     }
     
     func sendMes(){
-        voiceOverlay.dismiss()
         guard MFMessageComposeViewController.canSendText() else {
             print("Device is not capable to send messages")
             return
@@ -70,7 +51,7 @@ class HomeViewController: UIViewController {
         let composer = MFMessageComposeViewController()
         
         composer.recipients = ["+77761664558","+77758844648"]
-        composer.body = "Emergency: " + locationLL.text!
+        composer.body = "Emergency: " + self.locationLL.text!
         composer.subject = "Emergency:"
         composer.messageComposeDelegate = self
         
